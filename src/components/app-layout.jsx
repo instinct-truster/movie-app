@@ -6,8 +6,12 @@ export function AppLayout() {
       <header>
         <h2>Movie App</h2>
         <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link className="link" to="/">
+            Home
+          </Link>
+          <Link className="link" to="/about">
+            About
+          </Link>
         </nav>
       </header>
 
